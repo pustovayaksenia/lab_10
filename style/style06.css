@@ -1,0 +1,44 @@
+body {
+  display: flex;
+  justify-content: center;
+  font-size: 17px;
+  font-family: Helvetica;
+  margin: 70px;
+}
+
+.media-body {
+  flex: 1
+}
+
+.media {
+  display: flex;
+  align-items: center;
+  background-color: #F7F7F7;
+  padding: 30px;
+  width: 29%;
+  align-items: stretch;
+}
+
+.media-object01 {
+  background-image: url(images/pic.jpg);
+  background-size: cover;
+  border-radius: 70px;
+  width: 110px;
+  height: 110px;
+  margin-right: 40px;
+
+  justify-content:flex-start;
+  align-items:flex-start;
+  align-content:flex-start;  
+}
+
+.media-object02 {
+  background-image: url(images/pic.jpg);
+  background-size: cover;
+  border-radius: 70px;
+  width: 110px;
+  height: 110px;
+  margin-left: 40px;
+  order: 1;
+}
+

@@ -1,0 +1,61 @@
+body {
+  display: flex;
+  min-height: 100vh;
+  margin: 0;
+  flex-direction: column;
+  font-size: 15px;
+  font-weight: bold;
+  font-family: Helvetica;
+}
+
+a {
+  color: #333333;
+  text-decoration:none;
+  font-weight: bold;
+}
+
+a:hover {
+  color: #CC0000;
+}
+
+header, 
+footer {
+  height: 20vh;
+  background-color: #BFBFBF;
+  padding-left: 70px;
+  display: flex;
+  align-items: center;
+}
+
+main {
+  flex: 1;
+}
+
+main {
+  display: flex;
+}
+
+nav,
+aside {
+  width: 20vw;
+  background-color: #7C7C7C;
+  display: flex;
+  align-items: center;
+  padding-left: 70px;
+}
+
+article {
+  flex: 1;
+  background-color: #F7F7F7;
+  display: flex;
+  align-items: center;
+  padding-left: 70px;
+}
+
+nav {
+  order: -1;
+}
+
+
+
+
